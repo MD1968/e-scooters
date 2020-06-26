@@ -232,11 +232,11 @@ A News and Blog Section.
 
 ## CREDITS
 
-Code Institute - Tutor Support, and Course Material.
-Bootsrap
-Font Awsome
-Google Fonts
-Halfords
+Code Institute - Tutor Support, and Course Material (Lessions, Tutor Support and Example Code).
+Bootsrap.
+Font Awsome.
+Google Fonts.
+Halfords.
 
 I big thank you goes to:
 
