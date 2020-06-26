@@ -159,6 +159,26 @@ Result: On the first attempt I realised that the webhook functionality was not w
 
 I received an email confirming my purchase. 
 
+
+Adding A Product:
+
+Whilst login as an Admin user I was able to see the option to add a new product. I followed the link and the form appeared as planned.
+I tried to add a product without an image. The form was tested and worked correctly. I was able to add the product as planned.
+
+However whilst trying to add a product with an image I received a 500 error. After a lot of error checking assistance from the tutor team, I managed to resolve the issue. 
+This was resolved by removing the users key from the AWS bin and creating a new version. I then update the settings in my env file and Heroku. 
+Ran a new deployment and the issue was resolved. I am now able to correctly add a product with an image.
+
+
+Deleting A Product:
+
+Whilst login as an Admin user I was able to see the option to delete a product. I followed the link and the product was deleted correctly.
+
+Amending A product:
+
+Whilst login as an Admin user I was able to see the option to amend a product. I followed the link and the form appeared as planned.
+The process for completing the form as cecked and I was able to amend the product correctly.
+
 ### OTHER CHECKS: 
 
 The profile section has also been checked and is working as planned. 
