@@ -6,6 +6,8 @@
 
 This web application is a fully fledged e commerce shop.
 
+Link to the site: https://e-scooters.herokuapp.com
+
 Please do not use your credit card details while checking out as I will not be sending out any products.
 
 If you wish to try out the site you can use a test credit card. Details Below. 
