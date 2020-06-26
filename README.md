@@ -165,7 +165,7 @@ Adding A Product:
 Whilst login as an Admin user I was able to see the option to add a new product. I followed the link and the form appeared as planned.
 I tried to add a product without an image. The form was tested and worked correctly. I was able to add the product as planned.
 
-However whilst trying to add a product with an image I received a 500 error. After a lot of error checking assistance from the tutor team, I managed to resolve the issue. 
+However whilst trying to add a product with an image I received a 500 error. After a lot of error checking and assistance from the tutor team, I managed to resolve the issue. 
 This was resolved by removing the users key from the AWS bin and creating a new version. I then update the settings in my env file and Heroku. 
 Ran a new deployment and the issue was resolved. I am now able to correctly add a product with an image.
 
@@ -201,6 +201,8 @@ During the testing process, we noticed that the webhook function from stripe was
 
 I noticed that the link pointing from the stripe to my javascript file was not set correctly. After amending the link everything now works as planned.
 
+I received a 500 error whilst uploading product images. Resolved by updating the AWS keys. I deleted the old key and then created a new verson. Heroku end env files were then updated.
+
 ## DEPLOYMENT
 
 ### Hosting the database.
@@ -223,14 +225,14 @@ The site is run using a program called gunicorn so I installed that next. Heroku
 Finally, I had to update the requirements.txt file, addthe 'allowed hosts' in settings.py.
 Debug mode is also set to False by updating a config seng the Heroku cont
 Once all of this was complete, I pushed the code to gitn deployed the branch from heroku to make the sit
-## FUTURE E
+## FUTURE 
 I would like to add Social Networking Login.
 
 A News and Blog Section.
 
 ## CREDITS
 
-Code Institute
+Code Institute - Tutor Support, and Course Material.
 Bootsrap
 Font Awsome
 Google Fonts
