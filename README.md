@@ -225,7 +225,8 @@ I copied the environment variables from my local environment env.py file to the 
 The site is run using a program called gunicorn so I installed that next. Heroku needs a procfile to run stuff so I had to create that as well.
 Finally, I had to update the requirements.txt file, addthe 'allowed hosts' in settings.py.
 Debug mode is also set to False by updating a config seng the Heroku cont
-Once all of this was complete, I pushed the code to gitn deployed the branch from heroku to make the sit
+Once all of this was complete, I pushed the code to gitn deployed the branch from heroku to make the site
+
 ## FUTURE 
 I would like to add Social Networking Login.
 
